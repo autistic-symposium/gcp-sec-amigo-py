@@ -1,0 +1,52 @@
+######################################################################
+#
+#     List of key-value rules.
+#
+#     A key-value rule is simply a value to be checked in the
+#     given resource (eg. firewall), given a key.
+#
+#     Format:
+#         check_<resource-str>_<key_str>:
+#           rule_type: key_value
+#           violation_resource: <resource-str>
+#           violation:
+#             - <key1>: <value1>
+#             - <key2>: <value2>
+#
+#
+#####################################################################
+
+################
+# Networks Rules
+################
+
+check_network_autoCreateSubnetworks:
+  rule_type: key_value
+  violation_resource: networks
+  violation:
+    - autoCreateSubnetworks: true
+
+
+################
+# Snapshot Rules
+################
+check_snapshots_storageBytesStatus:
+  rule_type: key_value
+  violation_resource: snapshots
+  violation:
+    - storageBytesStatus: UP_TO_DATE
+
+
+
+################
+# Firewall Rules
+################
+
+check_firewall_open_all:
+  rule_type: key_value
+  violation_resource: firewalls
+  violation:
+    - sourceRanges: "0.0.0.0/0"
+    - IPProtocol: tcp
+    - ports: "0-65535"
+

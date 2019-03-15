@@ -1,0 +1,6 @@
+-e .
+-r requirements.txt
+coverage==4.4.2
+pytest==3.2.3
+setuptools==36.4.0
+tox==2.7.0

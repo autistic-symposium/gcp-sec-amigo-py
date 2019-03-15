@@ -1,0 +1,22 @@
+# Amigo General Configuration
+
+#### Retrieved data
+reports_dir: output
+database_json: gcp_report.json
+log_file: amigo_log.txt
+
+
+#### Reports
+results_dir: log
+results_log_file: amigo.log
+database_json: gcp_reports.json
+
+
+#### Attributes to be Inspected
+gcp_attributes:
+    compute: ["firewalls", "networks", "snapshots"]
+
+
+# GCP General Configuration
+key_file: keyfile.json
+local_cred_file: creds.data
