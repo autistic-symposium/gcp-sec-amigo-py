@@ -18,7 +18,7 @@ setup(
         "tinydb==3.2.2",
         "jsondiff==1.1.1",
         "termcolor==1.1.0",
-        "pyyaml==3.12"
+        "pyyaml==5.1"
     ],
     entry_points = {
         'console_scripts': ['amigo=amigo.amigo:main'],
