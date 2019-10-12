@@ -1,10 +1,10 @@
-# 🌵Amigo 🌵
+# Amigo GCP Security
 
 **Amigo** is a tool to manage **Google Cloud Platform Security**.
 
 ![](IMG_0002.jpg)
 
-Amigo uses the GCP API to fetch an organization's project data and, with a set of customizable rules, searches for security risks!
+Amigo uses the GCP API to fetch an organization's project data and, with a set of customizable rules, searches for security risks.
 
 ## How Amigo Works
 
@@ -239,8 +239,5 @@ Instance Template reports have this format:
 ## License
 
 When making a reference to my work, please use my [website](http://bt3gl.github.io/index.html).
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
