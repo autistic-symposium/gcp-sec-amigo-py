@@ -4,4 +4,4 @@ jsondiff==1.1.1
 termcolor==1.1.0
 pyasn1==0.2.3
 pyasn1-modules==0.0.9
-pyyaml==3.12
+pyyaml==5.1
