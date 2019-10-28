@@ -7,7 +7,7 @@ setup(
     name="amigo",
     version='0.0.3',
     provides=['amigo'],
-    author="Etsy Security",
+    author="Mia von Steinkirch",
     setup_requires='setuptools'
     description="Amigo is a tool to manage Google Cloud Platform Security.",
     packages=find_packages(),
