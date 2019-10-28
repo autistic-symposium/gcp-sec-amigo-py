@@ -8,9 +8,7 @@ setup(
     version='0.0.3',
     provides=['amigo'],
     author="Etsy Security",
-    setup_requires='setuptools',
-    license='Copyright 2017 Etsy',
-    author_email="netsec@etsy.com",
+    setup_requires='setuptools'
     description="Amigo is a tool to manage Google Cloud Platform Security.",
     packages=find_packages(),
     install_requires=[
