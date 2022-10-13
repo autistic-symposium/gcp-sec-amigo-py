@@ -1,4 +1,6 @@
-# Amigo: GCP Security Tool
+# Amigo: GCP Security Toolkit
+
+<br>
 
 **Amigo** is a tool to manage **Google Cloud Platform Security**.
 
