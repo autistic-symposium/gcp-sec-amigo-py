@@ -7,7 +7,7 @@ setup(
     name="amigo",
     version='0.0.3',
     provides=['amigo'],
-    author="Mia von Steinkirch",
+    author="Mia Stein",
     setup_requires='setuptools'
     description="Amigo is a tool to manage Google Cloud Platform Security.",
     packages=find_packages(),
