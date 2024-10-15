@@ -7,10 +7,8 @@ setup(
     name="amigo",
     version='0.0.3',
     provides=['amigo'],
-    author="Etsy Security",
-    setup_requires='setuptools',
-    license='Copyright 2017 Etsy',
-    author_email="netsec@etsy.com",
+    author="Mia Stein",
+    setup_requires='setuptools'
     description="Amigo is a tool to manage Google Cloud Platform Security.",
     packages=find_packages(),
     install_requires=[
@@ -18,7 +16,7 @@ setup(
         "tinydb==3.2.2",
         "jsondiff==1.1.1",
         "termcolor==1.1.0",
-        "pyyaml==3.12"
+        "pyyaml==5.4"
     ],
     entry_points = {
         'console_scripts': ['amigo=amigo.amigo:main'],
